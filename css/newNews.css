@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+form{
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; 
+}
+#main{
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+    margin-top:50px;
+}
+input[type="submit"]{
+margin-bottom: 10px;
+}
+body{
+    background-image: url(https://html5book.ru/wp-content/uploads/2015/10/background54.png);
+}
+#msg{
+    position: absolute;
+    left: 400px;
+    
+}

@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to top, #0A1683, #8915B2);
+}
+#accordion{
+    background: linear-gradient(to top, #0A1683, #8915B2);
+}
+#enter{
+    margin-left:90vw;
+    position: fixed;
+    margin-top: -3.2vw;
+}
+#newsText{
+    margin-left:10vw;
+    margin-right: 10vw;
+    margin-top: 4vw;
+}
+a{
+    text-decoration: none;
+}
+input[type=submit]{
+    background-image: url(http://s1.iconbird.com/ico/2013/9/450/w256h2561380453931User256x25632.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: 50%,50%;
+}
+.table{
+    text-align: center;
+}
+input.accordion{
+    background-color: #9966ff;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    text-align: center;
+}
+input.accordion:hover{
+    background-color: #ddd;
+}
+div.accordion{
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    display: table;
+    color: #ffffff
+}
+td{
+    padding: 10 130 0 130;
+    color: #ffffff
+}
